@@ -29,7 +29,7 @@ b0i=b0
 b1i=b1
 b2i=b2
 for j in range(9):
-    ### epocas
+    ###  aqui realiza 10 epocas
     for i in range(1,10):
         ### datos
         out = b0i + b1i*x1[i]+b2i*x2[i]
@@ -49,10 +49,12 @@ for j in range(9):
         b2i=b2
 ###  Parametros ya estimados      
 print("================================================")
+print("================================================")
 print("B0=", b0)
 print("B1=", b1)
 print("B2=", b2)  
 ### Predicciones
+print("================================================")
 print("================================================")
 ### se completo 10 epocas para determinar los parametros
 for i in range(10):
