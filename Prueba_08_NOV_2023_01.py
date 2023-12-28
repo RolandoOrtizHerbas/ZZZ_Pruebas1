@@ -47,12 +47,12 @@ for j in range(9):
         b0i=b0
         b1i=b1
         b2i=b2
-print("XXXXXXXXXXXX ==============  Asher777 ============ XXXXXXXXXXXXX")
 print("B0=", b0)
 print("B1=", b1)
 print("B2=", b2)  
 ### Predicciones
-print("************************************************************")
+print("================================================")
+### se completo 10 epocas para determinar los parametros
 for i in range(10):
     out = b0 + b1*x1[i]+b2*x2[i]
     pred = 1/(1 + math.exp(-out)) 
