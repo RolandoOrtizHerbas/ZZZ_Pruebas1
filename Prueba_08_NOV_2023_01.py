@@ -47,6 +47,8 @@ for j in range(9):
         b0i=b0
         b1i=b1
         b2i=b2
+###  Parametros ya estimados      
+print("================================================")
 print("B0=", b0)
 print("B1=", b1)
 print("B2=", b2)  
